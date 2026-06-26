@@ -1,0 +1,94 @@
+Command line invocation:
+    /Applications/Xcode_26.3.app/Contents/Developer/usr/bin/xcodebuild archive -workspace ./Ease_IRControl_New.xcworkspace -scheme Ease_IRControl_New -configuration Release -destination generic/platform=iOS -archivePath /Users/runner/work/Ease_IRControl_New/Ease_IRControl_New/build.xcarchive
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (16 targets)
+    Target 'RemoteControl' in project 'Ease_IRControl_New'
+        ➜ Implicit dependency on target 'Pods-RemoteControl' in project 'Pods' via file 'Pods_RemoteControl.framework' in build phase 'Link Binary'
+        ➜ Implicit dependency on target 'PKtSubscriptionKit' in project 'Pods' via options '-framework PKtSubscriptionKit' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'BUTTSDKFramework' in project 'Pods' via options '-framework TTSDKFramework' in build setting 'OTHER_LDFLAGS'
+    Target 'Pods-RemoteControl' in project 'Pods'
+        ➜ Explicit dependency on target 'Ads-CN' in project 'Pods'
+        ➜ Explicit dependency on target 'AnyThinkMediationAdxSmartdigimktCNAdapter' in project 'Pods'
+        ➜ Explicit dependency on target 'AnyThinkMediationBaiduAdapter' in project 'Pods'
+        ➜ Explicit dependency on target 'AnyThinkMediationGDTAdapter' in project 'Pods'
+        ➜ Explicit dependency on target 'AnyThinkMediationGromoreAdapter' in project 'Pods'
+        ➜ Explicit dependency on target 'AnyThinkMediationTTAdapter_Mix' in project 'Pods'
+        ➜ Explicit dependency on target 'AnyThinkiOS' in project 'Pods'
+        ➜ Explicit dependency on target 'BUTTSDKFramework' in project 'Pods'
+        ➜ Explicit dependency on target 'BaiduMobAdSDK' in project 'Pods'
+        ➜ Explicit dependency on target 'GDTMobSDK' in project 'Pods'
+        ➜ Explicit dependency on target 'PKtSubscriptionKit' in project 'Pods'
+        ➜ Explicit dependency on target 'SmartdigimktCNSDK' in project 'Pods'
+        ➜ Explicit dependency on target 'UMCommon' in project 'Pods'
+        ➜ Explicit dependency on target 'UMDevice' in project 'Pods'
+    Target 'PKtSubscriptionKit' in project 'Pods'
+        ➜ Explicit dependency on target 'UMCommon' in project 'Pods'
+        ➜ Explicit dependency on target 'UMDevice' in project 'Pods'
+    Target 'UMCommon' in project 'Pods'
+        ➜ Explicit dependency on target 'UMDevice' in project 'Pods'
+    Target 'UMDevice' in project 'Pods' (no dependencies)
+    Target 'AnyThinkMediationTTAdapter_Mix' in project 'Pods'
+        ➜ Explicit dependency on target 'Ads-CN' in project 'Pods'
+        ➜ Explicit dependency on target 'AnyThinkiOS' in project 'Pods'
+    Target 'AnyThinkMediationGromoreAdapter' in project 'Pods'
+        ➜ Explicit dependency on target 'Ads-CN' in project 'Pods'
+        ➜ Explicit dependency on target 'AnyThinkiOS' in project 'Pods'
+    Target 'AnyThinkMediationGDTAdapter' in project 'Pods'
+        ➜ Explicit dependency on target 'AnyThinkiOS' in project 'Pods'
+        ➜ Explicit dependency on target 'GDTMobSDK' in project 'Pods'
+    Target 'GDTMobSDK' in project 'Pods' (no dependencies)
+    Target 'AnyThinkMediationBaiduAdapter' in project 'Pods'
+        ➜ Explicit dependency on target 'AnyThinkiOS' in project 'Pods'
+        ➜ Explicit dependency on target 'BaiduMobAdSDK' in project 'Pods'
+    Target 'BaiduMobAdSDK' in project 'Pods' (no dependencies)
+    Target 'AnyThinkMediationAdxSmartdigimktCNAdapter' in project 'Pods'
+        ➜ Explicit dependency on target 'AnyThinkiOS' in project 'Pods'
+        ➜ Explicit dependency on target 'SmartdigimktCNSDK' in project 'Pods'
+    Target 'SmartdigimktCNSDK' in project 'Pods' (no dependencies)
+    Target 'AnyThinkiOS' in project 'Pods' (no dependencies)
+    Target 'Ads-CN' in project 'Pods'
+        ➜ Explicit dependency on target 'BUTTSDKFramework' in project 'Pods'
+    Target 'BUTTSDKFramework' in project 'Pods' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk -x objective-c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode_26.3.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/runner/work/Ease_IRControl_New/Ease_IRControl_New/RemoteControl/Resources/Assets.xcassets
+
+ExecuteExternalTool /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -V
+
+ExecuteExternalTool /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode_26.3.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: 47921ed54ad76249d0b51942f1162e6b
+Build description path: /Users/runner/Library/Developer/Xcode/DerivedData/Ease_IRControl_New-elywwykzdytmykckfvcubufdqiqp/Build/Intermediates.noindex/ArchiveIntermediates/Ease_IRControl_New/IntermediateBuildFilesPath/XCBuildData/47921ed54ad76249d0b51942f1162e6b.xcbuilddata
+/Users/runner/work/Ease_IRControl_New/Ease_IRControl_New/Ease_IRControl_New.xcodeproj: error: Provisioning profile "appstore-6783270880-20260626124223345" doesn't include signing certificate "Apple Distribution: ZERUN MODA TRADE CO., LIMITED (PGDZNKT5TR)". (in target 'RemoteControl' from project 'Ease_IRControl_New')
+warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'RemoteControl' from project 'Ease_IRControl_New')
+** ARCHIVE FAILED **
+
+
+The following build commands failed:
+	Archiving workspace Ease_IRControl_New with scheme Ease_IRControl_New
+(1 failure)
